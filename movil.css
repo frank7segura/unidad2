@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px){
+    .encabezado{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    }
+
+    .contenedor_servicios {
+        grid-template-columns: 1fr; /* En pantallas pequeñas, 1 columna */
+    }
+}
